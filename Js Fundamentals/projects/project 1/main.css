@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background-image: url(images/rm153-mynt-30.jpg)
+}
+.todo-list-app
+{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.todo-list-app h2
+{
+    color: #ddc5bd;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    margin-left: 100px;
+}
+.todo-list-app img
+{
+    width: 35px;
+    margin-left: 10px;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E0CDC7;
+    border-radius: 30px;
+    padding-left: 20px;
+}
