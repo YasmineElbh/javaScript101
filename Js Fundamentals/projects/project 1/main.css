@@ -42,4 +42,58 @@
     background-color: #E0CDC7;
     border-radius: 30px;
     padding-left: 20px;
+    margin-bottom: 25px;
+}
+input
+{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+button
+{
+    border-radius: 40px;
+    outline: none;
+    padding: 15px 50px;
+    background-color: #fff;
+    color: #ddc5bd;
+    font-size: 15px;
+    border: 1px solid #ddc5bd;
+    cursor: pointer;
+}
+ul li
+{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+ul li::before
+{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/moon_4809470.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+    
+}
+.checked
+{
+    color: #555;
+    text-decoration: line-through;
+}
+.checked::before
+{
+    background-image: url(images/checkbox_7079911.png);
 }
